@@ -1,4 +1,4 @@
-import cv2
+import cv2 # type: ignore
 
 face_ref = cv2.CascadeClassifier("facereco.xml")
 camera = cv2.VideoCapture(0)
